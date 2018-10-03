@@ -1,5 +1,4 @@
 
-
 import java.util.Observable;
 
 public class Model extends Observable {
@@ -15,5 +14,6 @@ public class Model extends Observable {
 		this.setChanged();
 		this.notifyObservers(String.valueOf(this.compte));
 	}
+	
 	
 }
