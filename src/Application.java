@@ -18,7 +18,7 @@ public class Application extends JFrame {
 		View view = new View();
 		modl.addObserver(view);
 		view.addActionListener(ctrl);
-		this.setTitle("tutoriel git");
+		this.setTitle("Git Tutorial");
 		this.add(view);
 		this.pack();
 		this.setVisible(true);
