@@ -18,7 +18,9 @@ public class Application extends JFrame {
 		View view = new View();
 		modl.addObserver(view);
 		view.addActionListener(ctrl);
-		this.setTitle("counter window");
+
+		this.setTitle("counter window for Git Tutorial");
+
 		this.add(view);
 		this.pack();
 		this.setVisible(true);
